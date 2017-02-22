@@ -1,0 +1,2 @@
+a:10:{s:6:"status";s:6:"update";s:14:"update_message";s:194:"Please, update your JBZoo App - <a href="http://clientarea.jbzoo.ru/" target="_blank">Download v2.2.8</a>&nbsp;&nbsp;
+Problem? - <a href="http://forum.jbzoo.com" target="_blank">Ask support!</a>";s:9:"changelog";s:0:"";s:15:"version_current";s:8:"2.2.0_rc";s:12:"version_last";s:5:"2.2.8";s:6:"domain";s:40:"4ac950ad48a65d29644677fc6c2d280b8aea9b81";s:7:"licence";i:1;s:7:"expired";i:1;s:4:"hash";s:40:"7a9626a2b09d3d7bde48263903f520af93842440";s:10:"_timestamp";i:1469716624;}

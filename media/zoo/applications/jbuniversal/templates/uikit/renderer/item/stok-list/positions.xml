@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<renderer>
+   <positions layout="teaser">
+        <position name="cell1">Table cell #1</position>
+        <position name="cell2">Table cell #2</position>
+        <position name="cell3">Table cell #3</position>
+        <position name="cell4">Table cell #4</position>
+        <position name="cell5">Table cell #5</position>
+   </positions>
+</renderer>

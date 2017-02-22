@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<element type="evaimage" group="JBZoo">
+    <name>ImagePro</name>
+    <author>Alex Oganov</author>
+    <creationDate>2014</creationDate>
+    <authorEmail>t_tapak@yahoo.com</authorEmail>
+    <version>2.5.0</version>
+    <description>ImagePro Element</description>
+    <version>1.2</version>
+    <params>
+        <param name="fancybox" type="list" default="0" label="Подключать fancybox">
+            <option value="0">Yes</option>
+            <option value="1">No</option>
+        </param>
+    </params>
+    <params group="render">
+        <param name="layout" type="list" default="first" label="Шаблон">
+            <option value="default">One image</option>
+            <option value="gallery">Gallery</option>
+        </param>
+
+        <param name="img_gallery" type="jbspacer" default="Options for one image and gallery templates"/>
+
+        <param name="width" type="text" default="400" label="JBZOO_RESIZE_WIDTH"
+               description="JBZOO_RESIZE_WIDTH_DESC"/>
+
+        <param name="height" type="text" default="300" label="JBZOO_RESIZE_HEIGHT"
+               description="JBZOO_RESIZE_WIDTH_DESC"/>
+
+        <param name="one_image" type="jbspacer" default="Options for one image"/>
+
+        <param name="link_to_item" type="radio" default="0" label="Параметры шаблона One Image"
+               description="Work only with template One image">
+            <option value="0">Nothing</option>
+            <option value="1">Link to item</option>
+            <option value="2">Lightbox</option>
+        </param>
+
+        <param name="gallery" type="jbspacer" default="Options for gallery"/>
+
+        <param name="zoom" type="list" default="0" label="Use zoom">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </param>
+
+        <param name="lightbox" type="list" default="0" label="Use lightbox">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </param>
+
+        <param name="limit" type="text" default="3" label="Images"/>
+
+        <param name="autoplay" type="list" default="0" label="Autoplay">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </param>
+
+        <param name="interval" type="text" default="5000" label="Interval"
+               description="Interval"/>
+
+        <param name="change" type="list" default="0" label="Change image on hover">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </param>
+
+        <param name="zoom_width" type="text" default="300" label="Zoom area width"
+               description="Zoom area width"/>
+
+        <param name="zoom_height" type="text" default="300" label="Zoom area width"
+               description="Zoom area width"/>
+
+        <param name="show_title" type="list" default="0" label="Show title in zoom">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </param>
+
+        <param name="thumb_pos" type="list" default="bottom" label="Thumb position">
+            <option value="bottom">Bottom</option>
+            <option value="left">Left</option>
+            <option value="right">Right</option>
+        </param>
+
+        <param name="show_begin_end" type="jbbool" default="1" label="Show navigate thumbs"
+               description="Show extra thumbnails at the beginning and the end that navigate back to the end or beginning"/>
+
+        <param name="zoom_img_width" type="text" default="750" label="Image width on zoom"
+               description="Image width on zoom"/>
+
+        <param name="zoom_img_height" type="text" default="750" label="Image height on zoom"
+               description="Image height on zoom"/>
+    </params>
+</element>
